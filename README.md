@@ -7,39 +7,16 @@ It was part of a job interview
 
 </br>
 
-[Create React App](https://github.com/facebook/create-react-app)
-
+* [Create React App](https://github.com/facebook/create-react-app)
+* [node-sass](https://github.com/sass/node-sass)
+* [lodash](https://lodash.com/) - for debouncing search results, etc
+* [Select](https://github.com/JedWatson/react-select)
+* [undraw](https://undraw.co/illustrations) - no results SVG
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+* [github api](https://developer.github.com/v3/search/)
+* [react-test-renderer](https://reactjs.org/docs/test-renderer.html) - for snapshot testing
+* redux and thunk
 </br>
-
-[node-sass](https://github.com/sass/node-sass)
-
-</br>
-
-[lodash](https://lodash.com/) - for debouncing search results, etc
-
-</br>
-
-[Select](https://github.com/JedWatson/react-select)
-
-</br>
-
-[undraw](https://undraw.co/illustrations) - no results SVG
-
-</br>
-
-[eact-router-dom](https://www.npmjs.com/package/react-router-dom)
-
-</br>
-
-[github api](https://developer.github.com/v3/search/)
-
-</br>
-
-[react-test-renderer](https://reactjs.org/docs/test-renderer.html) - for snapshot testing
-
-</br>
-redux and thunk
-</br></br>
 
 **Notes:**
 
