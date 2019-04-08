@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+$primary-color: #6215aa;
+$primary-text-color: #fff;
+
+$secondary-color: #8c5bbb;
+$secondary-text-color: #24292e;
+
+$opac-primary-color: #6215aa88;
+
+$background-color: #24292e;
+
+$transparent: rgba(0, 0, 0, 0);
+$white: #fff;
+
+html {
+	font-family: 'Open Sans Hebrew', serif;
+	user-select: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-color: $background-color;
+}
+
+input:not([type='submit']):not([type='file']) {
+	border: none;
+	padding: 5px;
+	font-size: 18px;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.rounded-border {
+	border: 1px solid #5c5663;
+	border-radius: 3px;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+@import 'animations';
+@import 'no-results';
+@import 'repo-list-item';
+@import 'repos-list';
+@import 'buttons';
+@import 'repos';
+@import 'repo';
+@import 'loader';
+@import 'fonts';

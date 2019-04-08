@@ -1,0 +1,18 @@
+.repo-container {
+	text-align: center;
+
+	.repo-name {
+		font-size: 30px;
+		margin: 30px;
+	}
+
+	.buttons-container {
+		display: flex;
+		margin: 40px;
+		justify-content: space-evenly;
+
+		div {
+			width: 35%;
+		}
+	}
+}

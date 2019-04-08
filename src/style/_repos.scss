@@ -1,0 +1,72 @@
+.repos-container {
+	.loader {
+		text-align: center;
+	}
+
+	.error {
+		font-size: 24px;
+		margin: 30px;
+		text-align: center;
+	}
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background-color: $primary-color;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	input {
+		height: 28px;
+		border-radius: 4px;
+
+		&.search-bar {
+			width: 30vw;
+			border: 1px solid hsl(0, 0%, 80%);
+			border-radius: 4px;
+			padding: 6px;
+		}
+
+		&:focus {
+			border-color: $opac-primary-color;
+		}
+	}
+
+	.logo {
+		margin-left: 18px;
+	}
+
+	.input-container {
+		align-items: flex-end;
+
+		.input-title {
+			font-size: 20px;
+			margin: 0px 15px;
+		}
+
+		.search-button {
+			font-size: 20px;
+			margin-left: 15px;
+		}
+	}
+
+	.dropdown {
+		width: 20vw;
+		max-width: 350px;
+	}
+}
+
+// tablets
+@media only screen and (max-width: 767px) {
+}
+
+// phones
+@media only screen and (max-width: 480px) {
+}

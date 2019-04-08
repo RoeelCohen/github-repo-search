@@ -1,0 +1,18 @@
+.no-results {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.no-results-drawing {
+		width: 30%;
+		min-width: 200px;
+		margin-top: 100px;
+	}
+
+	.no-results-text {
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+	}
+}
